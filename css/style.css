@@ -1,0 +1,61 @@
+/* Color palette inspired by your visual theme */
+:root {
+    --beige: #f5f1e8;
+    --teal: #3a6b6e;
+    --green: #6c8e6e;
+    --navy: #2f3e46;
+    --accent: #bfd3c1;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: var(--beige);
+    color: var(--navy);
+    line-height: 1.6;
+}
+
+header {
+    background-color: var(--teal);
+    color: var(--beige);
+    padding: 2rem;
+    text-align: center;
+}
+
+main {
+    padding: 2rem;
+}
+
+h1, h2 {
+    margin-top: 0;
+    color: var(--navy);
+}
+
+.intro, .values {
+    background-color: var(--accent);
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    background-color: var(--green);
+    color: white;
+    margin-bottom: 0.5rem;
+    padding: 0.75rem;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: var(--teal);
+    color: var(--beige);
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+}
